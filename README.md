@@ -1,16 +1,45 @@
-# React + Vite
+# Akshara J — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Modern, responsive personal portfolio and software engineering showcase for **Akshara J**, Computer Science Engineering student at K. Ramakrishnan College of Technology (Anna University).
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dynamic Hero Section**: Interactive typewriter role presentation, key academic metrics, and quick call-to-actions.
+- **Interactive Projects Showcase**: Real-world academic and engineering projects with category filters and detailed modal inspection:
+  - *Student Collaboration Hub* (React, Modern Web)
+  - *Expense Management System* (Python, Relational SQL)
+  - *Password Strength Checker* (Cybersecurity & Information Entropy)
+- **Live Security Playground**: Real-time password entropy calculation, brute-force crack time estimator, strength indicator, and NIST criteria validation.
+- **Athletic Leadership & Service**: Highlights college cricket team captaincy, football, and National Service Scheme (NSS) volunteer initiatives.
+- **Academic Journey & Milestones**: Interactive timeline covering B.E. (CSE), HSC (90.67%), and SSLC (87.6%).
+- **Resume Preview**: Integrated PDF viewer modal and direct download for the official resume.
+- **Glassmorphic UI & Theme Modes**: Light and Dark theme toggle with modern CSS variables and smooth transitions.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19, JavaScript (ES6+), Vanilla CSS3 (Custom Design System)
+- **Icons**: Lucide React
+- **Build Tool**: Vite 8
+- **Linter**: Oxlint
 
-## Expanding the Oxlint configuration
+## 💻 Local Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+4. **Preview the production build**:
+   ```bash
+   npm run preview
+   ```
